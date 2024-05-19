@@ -19,7 +19,7 @@ const app = new Frog({
 
 app.frame('/', (c) => {
   return c.res({
-    image: 'https://frog-frame-green.vercel.app/api/Battle.png',
+    image: 'https://frog-frame-green.vercel.app/Battle.png',
     action: '/utility',
     title: 'Battle',
     intents: [
@@ -31,7 +31,7 @@ app.frame('/', (c) => {
 
 app.frame('/utility', (c) => {
   return c.res({
-    image: 'https://frog-frame-green.vercel.app/api/Utility.png',
+    image: 'https://frog-frame-green.vercel.app/Utility.png',
     action: '/utility',
     title: 'utility',
     intents: [
@@ -46,7 +46,7 @@ app.frame('/utility', (c) => {
 app.frame('/bleu', (c) => {
   console.log(c);
   return c.res({
-    image: 'https://frog-frame-green.vercel.app/api/Bleu.png',
+    image: 'https://frog-frame-green.vercel.app/Bleu.png',
     action: '/bleu',
     title: 'Bleu',
 
@@ -62,7 +62,7 @@ app.frame('/bleu', (c) => {
 app.frame('/to', (c) => {
   console.log(c);
   return c.res({
-    image: 'https://frog-frame-green.vercel.app/api/Trade.png',
+    image: 'https://frog-frame-green.vercel.app/Trade.png',
     title: 'trade',
 
     intents: [
