@@ -19,7 +19,7 @@ const app = new Frog({
 
 app.frame('/', (c) => {
   return c.res({
-    image: '/Battle.png',
+    image: 'https://frog-frame-green.vercel.app/Battle.png',
     action: '/utility',
     title: 'Battle',
     intents: [
@@ -31,7 +31,7 @@ app.frame('/', (c) => {
 
 app.frame('/utility', (c) => {
   return c.res({
-    image: '/Utility.png',
+    image: 'https://frog-frame-green.vercel.app/Utility.png',
     action: '/utility',
     title: 'utility',
     intents: [
@@ -46,7 +46,7 @@ app.frame('/utility', (c) => {
 app.frame('/bleu', (c) => {
   console.log(c);
   return c.res({
-    image: '/Bleu.png',
+    image: 'https://frog-frame-green.vercel.app/Bleu.png',
     action: '/bleu',
     title: 'Bleu',
 
@@ -62,11 +62,11 @@ app.frame('/bleu', (c) => {
 app.frame('/to', (c) => {
   console.log(c);
   return c.res({
-    image: '/Trade.png',
+    image: 'https://frog-frame-green.vercel.app/Trade.png',
     title: 'trade',
 
     intents: [
-      <Button.Link href="https://zora.co/collect/base:0x338da94719499060d4fe18121114fd24e8668220/2?referrer=0x2De78F2dB332726Bf6e45722A20E96118d3d2462">
+      <Button.Link href="https://zora.co/collect/base:0x338da94719499060d4fe18121114fd24e8668220/2">
         HOLY WOW MINTING RN, thanks BOSS
       </Button.Link>,
     ],
