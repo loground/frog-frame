@@ -17,13 +17,6 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.description}>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-          <p>
-            Head to{' '}
-            <a href="/api/dev" style={{ display: 'inline', fontWeight: 'semibold' }}>
-              <code className={styles.code}>localhost:3000/api</code>
-            </a>{' '}
-            for your frame endpoint.
-          </p>
           <p>You shouldn't miss those</p>
           <a href="https://zora.co/collect/base:0x338da94719499060d4fe18121114fd24e8668220/1">
             Elefant
